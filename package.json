@@ -8,7 +8,7 @@
     "lint": "tslint --project ./tsconfig.json"
   },
   "dependencies": {
-    "react": "^16.12.0",
+    "react": "^16.13.1",
     "react-reconciler": "^0.24.0",
     "ts-graphviz": "^0.9.1"
   },
