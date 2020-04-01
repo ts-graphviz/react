@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "react": "^16.12.0",
-    "react-reconciler": "^0.24.0",
+    "react-reconciler": "^0.25.0",
     "ts-graphviz": "^0.9.1"
   },
   "devDependencies": {
