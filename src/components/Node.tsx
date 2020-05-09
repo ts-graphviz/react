@@ -1,5 +1,6 @@
-import React, { FC, ReactElement } from 'react';
+import React, { ReactElement, forwardRef, useImperativeHandle } from 'react';
 import PropTypes from 'prop-types';
+import gv from 'ts-graphviz';
 import { useNode, NodeProps } from '../hooks/use-node';
 import { useRenderedID } from '../hooks/use-rendered-id';
 
@@ -7,12 +8,13 @@ type Props = Omit<NodeProps, 'label'> & {
   label?: ReactElement | string;
 };
 
-export const Node: FC<Props> = ({ children, label, ...props }) => {
+export const Node = forwardRef<gv.INode, Props>(({ children, label, ...props }, ref) => {
   const renderedLabel = useRenderedID(label);
   if (renderedLabel !== undefined) Object.assign(props, { label: renderedLabel });
-  useNode(props);
+  const node = useNode(props);
+  useImperativeHandle(ref, () => node);
   return <>{children}</>;
-};
+});
 
 Node.displayName = 'Node';
 
