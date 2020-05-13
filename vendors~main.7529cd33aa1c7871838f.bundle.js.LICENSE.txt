@@ -57,15 +57,6 @@ See the Apache Version 2.0 License for specific language governing permissions
 and limitations under the License.
 ***************************************************************************** */
 
-/** @license React v0.18.0
- * scheduler.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 /** @license React v0.19.1
  * scheduler.production.min.js
  *
@@ -75,7 +66,7 @@ and limitations under the License.
  * LICENSE file in the root directory of this source tree.
  */
 
-/** @license React v0.24.0
+/** @license React v0.25.1
  * react-reconciler.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
