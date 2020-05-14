@@ -11397,10 +11397,10 @@ ts-dedent@^1.1.0:
   resolved "https://registry.yarnpkg.com/ts-dedent/-/ts-dedent-1.1.1.tgz#68fad040d7dbd53a90f545b450702340e17d18f3"
   integrity sha512-UGTRZu1evMw4uTPyYF66/KFd22XiU+jMaIuHrkIHQ2GivAXVlLV0v/vHrpOuTRf9BmpNHi/SO7Vd0rLu0y57jg==
 
-ts-graphviz@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/ts-graphviz/-/ts-graphviz-0.10.0.tgz#b88f46c178c6c77682c202000d64c962e3417f0d"
-  integrity sha512-jX1b2KPyKReHUTwLgsGL8bcASqjgMGVSbOr8xnrocInr3YeGnsOzI/78xyTgRLGqayVUBod+2xKDZdSyg0rtEw==
+ts-graphviz@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/ts-graphviz/-/ts-graphviz-0.11.0.tgz#301082d164a2c4ab8e183d666bc7d2db80ad0c73"
+  integrity sha512-ofhNsvHZra41W9kAUcrI6QaBJ0nMjqIj4QrjIu0jcjDQs7CWHXOBPMvAe6zCQdg6tVy8bRYn4aNNDxdZG5oj+g==
   dependencies:
     tslib "^1.10.0"
 
@@ -11448,12 +11448,12 @@ ts-pnp@^1.1.2:
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
   integrity sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==
 
-tslib@1.11.2, tslib@^1.10.0, tslib@^1.9.0, tslib@^1.9.3:
+tslib@1.11.2:
   version "1.11.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.2.tgz#9c79d83272c9a7aaf166f73915c9667ecdde3cc9"
   integrity sha512-tTSkux6IGPnUGUd1XAZHcpu85MOkIl5zX49pO+jfsie3eP0B6pyhOlLXm3cAC6T7s+euSDDUUV+Acop5WmtkVg==
 
-tslib@^1.8.1:
+tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.12.0.tgz#d1fc9cacd06a1456c62f2902b361573e83d66473"
   integrity sha512-5rxCQkP0kytf4H1T4xz1imjxaUUPMvc5aWp0rJ/VMIN7ClRiH1FwFvBt8wOeMasp/epeUnmSW6CixSIePtiLqA==
