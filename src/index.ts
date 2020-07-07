@@ -1,3 +1,4 @@
+export * from './utils/render-id';
 export * from './renderer/render';
 export * from './hooks/use-rendered';
 export * from './hooks/use-cluster';
