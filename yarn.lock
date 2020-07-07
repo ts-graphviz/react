@@ -1206,9 +1206,9 @@
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
 "@hpcc-js/wasm@^0.3.13":
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/@hpcc-js/wasm/-/wasm-0.3.13.tgz#5a5666db41e47ef5495006ad09f91e35f1fde29a"
-  integrity sha512-cnhBOjxa2RCb/0phDmjy9u1+GEMyDKFtf1uXbtYFlm9XcyLZEDKFOzYjeb9iXM4mF0dDhS0P3iRmy4U9orIasA==
+  version "0.3.14"
+  resolved "https://registry.yarnpkg.com/@hpcc-js/wasm/-/wasm-0.3.14.tgz#461ffedc8d5a149f5fa773f4ba7d4678439b1833"
+  integrity sha512-4+Gxy/KrWQcJkr67mPkTz5BgrrbuZJyDJoKGE1RSzsx8dTU+AgyfL/ILLkucyTvmakSNB6tmuvdFM4ua08G14w==
 
 "@icons/material@^0.2.4":
   version "0.2.4"
