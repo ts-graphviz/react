@@ -16,7 +16,7 @@ describe('useRenderedID', () => {
         <DOT.TD PORT="r">right</DOT.TD>
       </DOT.TR>
     </DOT.TABLE>,
-  ])('%s', (id) => {
+  ])('case', (id) => {
     const { result } = renderHook(() => useRenderedID(id), {
       wrapper: context(),
     });
