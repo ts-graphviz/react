@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`useRenderedID  1`] = `"hoge"`;
+exports[`useRenderedID <<b>bold</b>> 1`] = `"<<b>bold</b>>"`;
 
-exports[`useRenderedID  2`] = `"<<b>bold</b>>"`;
+exports[`useRenderedID [object Object] 1`] = `"<<B>bold</B>>"`;
 
-exports[`useRenderedID  3`] = `"<<B>bold</B>>"`;
+exports[`useRenderedID [object Object] 2`] = `"<<TABLE BORDER=\\"0\\" CELLBORDER=\\"1\\" CELLSPACING=\\"0\\"><TR><TD>left</TD><TD PORT=\\"m\\">middle</TD><TD PORT=\\"r\\">right</TD></TR></TABLE>>"`;
 
-exports[`useRenderedID  4`] = `"<<TABLE BORDER=\\"0\\" CELLBORDER=\\"1\\" CELLSPACING=\\"0\\"><TR><TD>left</TD><TD PORT=\\"m\\">middle</TD><TD PORT=\\"r\\">right</TD></TR></TABLE>>"`;
+exports[`useRenderedID hoge 1`] = `"hoge"`;

@@ -26,7 +26,7 @@ export type TableProps = {
   WIDTH?: AttributesValue; // "value"
 };
 
-type NoAttributes = {};
+type NoAttributes = Record<string, unknown>;
 
 export type TrProps = NoAttributes;
 
@@ -84,6 +84,7 @@ export type SProps = NoAttributes;
 export type HrProps = NoAttributes;
 export type VrProps = NoAttributes;
 
+// eslint-disable-next-line no-shadow
 export enum DOT {
   PORT = 'dot-port',
   TABLE = 'dot-table',
