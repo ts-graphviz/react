@@ -1,8 +1,7 @@
 import { useMemo, useEffect } from 'react';
 import { Digraph, RootClusterAttributes } from 'ts-graphviz';
 import { useGraphvizContext } from './use-graphviz-context';
-import { useClusterAttributes, ClusterAttributesProps } from './use-cluster-attributes';
-import { useHasComment } from './use-comment';
+import { ClusterAttributesProps } from './use-cluster-attributes';
 
 export type DigraphProps = {
   id?: string;
@@ -21,9 +20,7 @@ export const useDigraph = ({ id, comment, edge, node, graph, ...attributes }: Di
     g.attributes.edge.apply(edge ?? {});
     g.attributes.graph.apply(graph ?? {});
     return g;
-  }, [context, id, comment, edge, node, graph, attributes]);
-  useHasComment(digraph, comment);
-  useClusterAttributes(digraph, attributes, { edge, node, graph });
+  }, [context,x id, comment, edge, node, graph, attributes]);
   useEffect(() => {
     return (): void => {
       context.root = undefined;
