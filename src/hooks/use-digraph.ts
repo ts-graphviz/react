@@ -20,7 +20,7 @@ export const useDigraph = ({ id, comment, edge, node, graph, ...attributes }: Di
     g.attributes.edge.apply(edge ?? {});
     g.attributes.graph.apply(graph ?? {});
     return g;
-  }, [context,x id, comment, edge, node, graph, attributes]);
+  }, [context, id, comment, edge, node, graph, attributes]);
   useEffect(() => {
     return (): void => {
       context.root = undefined;
