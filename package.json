@@ -33,7 +33,7 @@
     "lint": "eslint -c .eslintrc.json --ext ts,tsx src"
   },
   "peerDependencies": {
-    "react": ">=17"
+    "react": ">=16.8.0 || >=17"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
