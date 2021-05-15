@@ -1,10 +1,6 @@
 import React from 'react';
-import { IRootCluster } from 'ts-graphviz';
-
-export type Context = {
-  root?: IRootCluster;
-};
+import { IContext } from '../../types';
 
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-export const GraphvizContext = React.createContext<Context>(null!);
+export const GraphvizContext = React.createContext<IContext>(null!);
 GraphvizContext.displayName = 'GraphvizContext';

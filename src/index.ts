@@ -1,3 +1,4 @@
+export * from './types';
 export * from './renderer/render';
 export * from './hooks/use-cluster';
 export * from './hooks/use-cluster-map';

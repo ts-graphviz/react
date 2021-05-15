@@ -4,12 +4,9 @@ import { ICluster } from 'ts-graphviz';
 import { Cluster } from './contexts/Cluster';
 import { ClusterMap } from './contexts/ClusterMap';
 import { useRootCluster } from '../hooks/use-root-cluster';
+import { ClusterPortalComponentProps } from '../types';
 
-type Props = {
-  name?: string;
-};
-
-export const ClusterPortal: FC<Props> = ({ children, name }) => {
+export const ClusterPortal: FC<ClusterPortalComponentProps> = ({ children, name }) => {
   const root = useRootCluster();
   const map = useContext(ClusterMap);
   const cluster = useMemo(() => {
