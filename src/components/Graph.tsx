@@ -1,11 +1,11 @@
 import React, { FC, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { RootCluster } from './contexts/RootCluster';
-import { Cluster } from './contexts/Cluster';
+import { RootCluster } from '../contexts/RootCluster';
+import { Cluster } from '../contexts/Cluster';
 import { useGraph } from '../hooks/use-graph';
 import { useRenderedID } from '../hooks/use-rendered-id';
 import { useRootCluster } from '../hooks/use-root-cluster';
-import { DuplicatedRootClusterErrorMessage } from '../utils/errors';
+import { DuplicatedRootClusterErrorMessage } from '../errors';
 import { useClusterMap } from '../hooks/use-cluster-map';
 import { RootClusterComponentProps } from '../types';
 

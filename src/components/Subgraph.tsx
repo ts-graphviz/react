@@ -1,6 +1,6 @@
 import React, { FC, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { Cluster } from './contexts/Cluster';
+import { Cluster } from '../contexts/Cluster';
 import { useSubgraph } from '../hooks/use-subgraph';
 import { useRenderedID } from '../hooks/use-rendered-id';
 import { useClusterMap } from '../hooks/use-cluster-map';

@@ -1,9 +1,9 @@
 import { ReactElement, createElement } from 'react';
 import { toDot } from 'ts-graphviz';
-import { GraphvizContext } from '../components/contexts/GraphvizContext';
+import { GraphvizContext } from './contexts/GraphvizContext';
 import { reconciler } from './reconciler';
-import { ClusterMap } from '../components/contexts/ClusterMap';
-import { IContext } from '../types';
+import { ClusterMap } from './contexts/ClusterMap';
+import { IContext } from './types';
 
 const noop = (): void => undefined;
 

@@ -1,11 +1,11 @@
 import { useMemo, useEffect } from 'react';
-import { Graph } from 'ts-graphviz';
+import { Graph, IRootCluster } from 'ts-graphviz';
 import { useGraphvizContext } from './use-graphviz-context';
 import { useClusterAttributes } from './use-cluster-attributes';
 import { useHasComment } from './use-comment';
 import { RootClusterProps } from '../types';
 
-export function useGraph({ id, comment, edge, node, graph, ...attributes }: RootClusterProps = {}): Graph {
+export function useGraph({ id, comment, edge, node, graph, ...attributes }: RootClusterProps = {}): IRootCluster {
   const context = useGraphvizContext();
   const memoGraph = useMemo(() => {
     const g = new Graph(id);

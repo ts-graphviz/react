@@ -1,7 +1,7 @@
 import { useEffect, useMemo } from 'react';
 import { IEdge } from 'ts-graphviz';
 import { useCluster } from './use-cluster';
-import { EdgeTargetLengthErrorMessage } from '../utils/errors';
+import { EdgeTargetLengthErrorMessage } from '../errors';
 import { useHasComment } from './use-comment';
 import { useHasAttributes } from './use-has-attributes';
 import { EdgeProps } from '../types';

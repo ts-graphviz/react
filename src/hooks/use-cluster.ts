@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { ICluster } from 'ts-graphviz';
-import { Cluster } from '../components/contexts/Cluster';
-import { NoClusterErrorMessage } from '../utils/errors';
+import { Cluster } from '../contexts/Cluster';
+import { NoClusterErrorMessage } from '../errors';
 
 export function useCluster(): ICluster {
   const cluster = useContext(Cluster);

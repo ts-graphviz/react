@@ -1,7 +1,7 @@
 import { useContext } from 'react';
-import { GraphvizContext } from '../components/contexts/GraphvizContext';
+import { GraphvizContext } from '../contexts/GraphvizContext';
 import { IContext } from '../types';
-import { NoGraphvizContextErrorMessage } from '../utils/errors';
+import { NoGraphvizContextErrorMessage } from '../errors';
 
 export function useGraphvizContext(): IContext {
   const context = useContext(GraphvizContext);
