@@ -1,6 +1,5 @@
 import React from 'react';
-import { IRootCluster } from 'ts-graphviz';
+import { ICluster } from 'ts-graphviz';
 
-// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-export const RootCluster = React.createContext<IRootCluster>(null!);
-RootCluster.displayName = 'RootCluster';
+export const ContainerCluster = React.createContext<ICluster | null>(null);
+ContainerCluster.displayName = 'ContainerCluster';
