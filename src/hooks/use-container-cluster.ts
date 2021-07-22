@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { ICluster } from 'ts-graphviz';
-import { ContainerCluster } from '../contexts/RootCluster';
+import { ContainerCluster } from '../contexts/ContainerCluster';
 
 /**
  * Return the cluster of container.

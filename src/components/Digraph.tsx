@@ -1,6 +1,6 @@
 import React, { FC, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { ContainerCluster } from '../contexts/RootCluster';
+import { ContainerCluster } from '../contexts/ContainerCluster';
 import { CurrentCluster } from '../contexts/CurrentCluster';
 import { useDigraph } from '../hooks/use-digraph';
 import { useRenderedID } from '../hooks/use-rendered-id';

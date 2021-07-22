@@ -4,7 +4,7 @@ import { toDot, ICluster } from 'ts-graphviz';
 import { reconciler } from './reconciler';
 import { IContext, GraphvizContext } from './contexts/GraphvizContext';
 import { ClusterMap } from './contexts/ClusterMap';
-import { ContainerCluster } from './contexts/RootCluster';
+import { ContainerCluster } from './contexts/ContainerCluster';
 import { CurrentCluster } from './contexts/CurrentCluster';
 import { NoContainerErrorMessage } from './errors';
 
