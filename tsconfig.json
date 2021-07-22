@@ -11,7 +11,7 @@
     ],
     "allowJs": false,
     "alwaysStrict": true,
-    "strictNullChecks": false,
+    "strictNullChecks": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
