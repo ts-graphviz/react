@@ -1,3 +1,9 @@
+
+# This Repository is archived.
+# Moved to <https://github.com/ts-graphviz/ts-graphviz>
+
+---
+
 [![NodeCI](https://github.com/ts-graphviz/react/workflows/NodeCI/badge.svg)](https://github.com/ts-graphviz/react/actions?workflow=NodeCI)
 [![npm version](https://badge.fury.io/js/%40ts-graphviz%2Freact.svg)](https://badge.fury.io/js/%40ts-graphviz%2Freact)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
